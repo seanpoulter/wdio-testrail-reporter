@@ -6,8 +6,8 @@ updates:
     directory: "/"
     schedule:
       interval: daily
-      time: "20:00"
-    open-pull-requests-limit: 10
+      time: "21:00"
+    # open-pull-requests-limit: 10
     versioning-strategy: increase-if-necessary
     groups:
       "@wdio":
@@ -17,4 +17,4 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "20:00"
+      time: "21:00"
