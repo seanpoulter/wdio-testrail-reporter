@@ -11,7 +11,10 @@ updates:
     versioning-strategy: increase-if-necessary
     groups:
       "@wdio":
-        - pattern: "@wdio/*"
+        patterns:
+          - "@wdio/*"
+          - "webdriver"
+          - "webdriverio"
 
   - package-ecosystem: "github-actions"
     directory: "/"
