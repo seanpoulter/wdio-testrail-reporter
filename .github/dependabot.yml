@@ -10,7 +10,7 @@ updates:
     open-pull-requests-limit: 10
     versioning-strategy: increase-if-necessary
     groups:
-      "@wdio/*":
+      "@wdio":
         - pattern: "@wdio/*"
 
   - package-ecosystem: "github-actions"
