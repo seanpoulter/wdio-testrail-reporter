@@ -6,11 +6,11 @@ updates:
     directory: "/"
     schedule:
       interval: daily
-      time: "23:00"
-    # open-pull-requests-limit: 10
+      time: "00:00"
+    open-pull-requests-limit: 10
     versioning-strategy: increase-if-necessary
     groups:
-      "@wdio":
+      "webdriverio/*":
         patterns:
           - "@wdio/*"
           - "webdriver"
@@ -20,4 +20,4 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "23:00"
+      time: "00:00"
